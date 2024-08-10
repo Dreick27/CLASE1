@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica1.View.Vista1">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="PaleGreen" Padding="30">
+            <Label TextColor="Black" HorizontalTextAlignment="Center" Text="Hello World"/>
+            <Image Source="https://pic2.iqiyipic.com/hamster/20240613/45/af/2c60a40e8f_xxx.png"/>
+            <Label Text="Usuario:"/>
+            <Entry PlaceholderColor="Turquoise" Placeholder="Ingrese su usuario"/>
+            <Label Text="Contraseña:"/>
+            <Entry Placeholder="Ingrese su contraseña" Keyboard="Numeric" PlaceholderColor="Turquoise"/>
+            <Button x:Name="Guardar" Clicked="Guardar_Clicked" Text="Entrar"/>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
